@@ -3,6 +3,7 @@ html {
     font-family: "Playfair Display";
     background:url(https://i.pinimg.com/originals/02/8e/58/028e5878580b59f251800e32dcce0d64.jpg);
     position: relative;
+    background-attachment: fixed;
     width: 100%;
     height: 100%;
     padding: 0px;
