@@ -16,10 +16,18 @@
 </head>
 
 <body>
-<!--Add hyperlinks down to subheaders-->
-    <h1>Kangaroo Rat</h1>
 
-    <div id=introduction>
+  <ul class="navigation">
+    <!--<li><img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png" height="20px;"></li>-->
+    <div id="hyperlinks">
+      <h1>Kangaroo Rat</h1>
+      <a href="#introduction">Introduction</a>
+      <a href="#habitat">Habitat</a>
+      <a href="#media">Media</a>
+    </div>
+  </ul>
+
+    <div id="introduction">
         <h2>About Kangaroo Rats</h2>
         <p>Kangaroo rats, small rodents of genus Dipodomys, are native to western North America. 
           The common name derives from their bipedal form. They hop in a manner similar to the much larger kangaroo, 
@@ -60,20 +68,63 @@
   </div>-->
   </div>
 
+  <table> <!--Table-->
+    <thead> 
+      <tr> <!--table row-->
+        <th>Company Name</th> <!--Table Heading; can add scope="col" or "row"-->
+        <th>Number of Items to Ship</th>
+        <th>Next Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Adam's Greenworks</th>
+        <td>14</td> <!--Table Data-->
+        <td>Package Items</td>
+      </tr>
+      <tr>
+        <th>Davie's Burgers</th>
+        <td>2</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <th>Baker's Bike Shop</th>
+        <td>3</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <th>Miss Sally's Southern</th>
+        <td>4</td>
+        <td>Ship</td>
+      </tr>
+      <tr>
+        <th>Summit Resort Rentals</th>
+        <td>4</td>
+        <td>Ship</td>
+      </tr>
+      <tr>
+        <th>Strike Fitness</th>
+        <td>1</td>
+        <td>Enter Order</td>
+      </tr>
+      </tbody>
+  </table>
+
   <div id="media">
     <h2>Media</h2>
 
     <p>Image of Kangaroo Rat</p>
-    <p>Found on Wikipedia: </p>
-    <a href="https://en.wikipedia.org/wiki/Kangaroo_rat">https://en.wikipedia.org/wiki/Kangaroo_rat</a>
-    <br>
+    <p>Found on Wikipedia (click the image to visit page): </p>
+    <!--<a href="https://en.wikipedia.org/wiki/Kangaroo_rat" target="_blank">https://en.wikipedia.org/wiki/Kangaroo_rat</a>
+    <br>-->
+    <a href="https://en.wikipedia.org/wiki/Kangaroo_rat" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Kangaroo-rat.jpg" 
-    alt="Image of a Kangaroo Rat. Found on wikipedia." width="500" height="285"/>
+    alt="Image of a Kangaroo Rat. Found on wikipedia." width="500" height="285"/></a>
     <br>
 
     <h3>Video of Kangaroo Rat Evading a Snake</h3>
     <p>Found on National Geographic: </p>
-    <a href="https://video.nationalgeographic.com/video/news/0000015d-8031-d1cb-a7fd-c4fdc7240000">https://video.nationalgeographic.com/video/news/0000015d-8031-d1cb-a7fd-c4fdc7240000</a>
+    <a href="https://video.nationalgeographic.com/video/news/0000015d-8031-d1cb-a7fd-c4fdc7240000" target="_blank">https://video.nationalgeographic.com/video/news/0000015d-8031-d1cb-a7fd-c4fdc7240000</a>
     <br>
     <video poster= "https://pmdvod.nationalgeographic.com/NG_Video/52/827/xlgpost_1501094783787.jpg" src="https://pmdvod.nationalgeographic.com/NG_Video/52/827/1010445379980_1501094517412_1010450499574_mp4_video_1024x576_1632000_primary_audio_eng_3.mp4"
     width="500" height="285" controls>

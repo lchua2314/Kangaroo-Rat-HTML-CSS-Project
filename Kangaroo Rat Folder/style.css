@@ -21,7 +21,7 @@ html {/*has the background image fixed even when scrolling of a kangaroo rat*/
     font-display: swap;
     src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v18/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+}
 
 @font-face { 
     font-family: 'Playfair Display';
@@ -30,7 +30,33 @@ html {/*has the background image fixed even when scrolling of a kangaroo rat*/
     font-display: swap;
     src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url(https://fonts.gstatic.com/s/playfairdisplay/v18/nuFlD-vYSZviVYUb_rj3ij__anPXBYf9lW4e5g.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+}
+
+.navigation {
+    box-sizing: border-box;
+    background-color: rgb(255, 166, 0);
+    overflow: auto;
+    padding: 18px 50px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navigation {
+    color: #FFF;
+    display: inline-block;
+    /*font-family: 'Oxygen', sans-serif;*/
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px 18px 10px 18px;
+    text-transform: uppercase;
+    /*text-align: left;*/
+    padding: 5; /*ul*/
+    margin: 0;
+}
 
 body { /*All content inside the 'body' element should be centered aligned*/
     text-align: center;
@@ -73,6 +99,15 @@ ul {
 ol {
     color: Brown;
     list-style-position: inside;
+}
+
+table {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: static;
+    width: 80%;
 }
 
 #media {
