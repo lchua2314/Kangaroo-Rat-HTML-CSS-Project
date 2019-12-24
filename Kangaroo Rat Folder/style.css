@@ -37,12 +37,10 @@ html {/*has the background image fixed even when scrolling of a kangaroo rat*/
     box-sizing: border-box;
     background-color: rgb(255, 166, 0);
     overflow: auto;
-    padding: 18px 50px;
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    /*z-index: 999;*/
 
     display: inline-block;
     font-size: 16px;
@@ -57,7 +55,6 @@ html {/*has the background image fixed even when scrolling of a kangaroo rat*/
     box-sizing: border-box;
     background-color: rgb(255, 166, 0);
     overflow: auto;
-    padding: 18px 50px;
     position: fixed;
     top: 0;
     left: 0;
