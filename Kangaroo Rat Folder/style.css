@@ -79,7 +79,7 @@ html {/*has the background image fixed even when scrolling of a kangaroo rat*/
     letter-spacing: 2px;
     margin: 0;
     padding: 5px;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     /*text-align: left;*/
     /*padding: 5; /*ul*/
 }
@@ -111,20 +111,24 @@ h1 { /*Heading 1 is "Kangaroo Rat" titling the page*/
     margin: 10px;
     padding: 10px;
     border: 2px solid #ffbb00;
+    text-transform: uppercase;
 }
 
 /*All subheaders are 'saddlebrown' while all content below is 'brown'*/
 
 h2 {
     color: saddlebrown;
+    text-transform: uppercase;
 }
 
 h3 {
     color: saddlebrown;
+    text-transform: uppercase;
 }
 
 h4 {
     color: saddlebrown;
+    text-transform: uppercase;
 }
 
 p {
@@ -150,6 +154,32 @@ table {
     overflow-y: scroll;
     position: static;
     width: 80%;
+}
+
+thead th {
+    background: rgb(253, 143, 0);/*rgb(255, 166, 0);*/
+    color: saddlebrown;
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+  
+tr {
+    background: #ffbb00;/*rgb(255, 179, 39);*/
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+}
+  
+th, td {
+    font-family: 'Playfair Display';
+    color: brown;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;
+    width: 33.3333%;
 }
 
 #media {
