@@ -33,14 +33,16 @@ html {/*has the background image fixed even when scrolling of a kangaroo rat*/
 }
 
 .navigation {
+    border: 5px solid #ff9100;
     box-sizing: border-box;
     background-color: rgb(255, 166, 0);
     overflow: auto;
     padding: 18px 50px;
     position: relative;
     top: 0;
+    left: 0;
     width: 100%;
-    z-index: 999;
+    /*z-index: 999;*/
 }
 
 .navigation {
@@ -51,14 +53,52 @@ html {/*has the background image fixed even when scrolling of a kangaroo rat*/
     letter-spacing: 2px;
     margin: 0;
     padding: 20px 18px 10px 18px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     /*text-align: left;*/
-    padding: 5; /*ul*/
+    /*padding: 5; /*ul*/
+}
+
+.spaceForHeader {
+    border: 3px solid #ff9100;
+    box-sizing: border-box;
+    background-color: rgb(255, 166, 0);
+    overflow: auto;
+    padding: 18px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*width: 100%;*/
+    /*z-index: 999;*/
+}
+
+.spaceForHeader {
+    display: inline-block;
+    /*font-family: 'Oxygen', sans-serif;*/
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
     margin: 0;
+    padding: 5px;
+    /*text-transform: uppercase;*/
+    /*text-align: left;*/
+    /*padding: 5; /*ul*/
+}
+/*#hyperlinks, */
+a {
+    border: 2px solid #ffbb00;
+    background-color: rgb(253, 143, 0);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 body { /*All content inside the 'body' element should be centered aligned*/
     text-align: center;
+
+    /*Scroll box model*/
+    /*width: 400px; 
+    height: 1000px; /*Added to test overflow
+    overflow: scroll; /*overflow added*/
 }
 
 h1 { /*Heading 1 is "Kangaroo Rat" titling the page*/
@@ -68,7 +108,9 @@ h1 { /*Heading 1 is "Kangaroo Rat" titling the page*/
     padding-top: 100px;**/
     color: saddlebrown;
     font-size: 50px;
-    margin: 20px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #ffbb00;
 }
 
 /*All subheaders are 'saddlebrown' while all content below is 'brown'*/
