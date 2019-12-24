@@ -32,7 +32,7 @@ html {/*has the background image fixed even when scrolling of a kangaroo rat*/
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-.navigation {
+.mainHeaderBar {
     border: 5px solid #ff9100;
     box-sizing: border-box;
     background-color: rgb(255, 166, 0);
@@ -43,22 +43,16 @@ html {/*has the background image fixed even when scrolling of a kangaroo rat*/
     left: 0;
     width: 100%;
     /*z-index: 999;*/
-}
 
-.navigation {
     display: inline-block;
-    /*font-family: 'Oxygen', sans-serif;*/
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 2px;
     margin: 0;
     padding: 20px 18px 10px 18px;
-    /*text-transform: uppercase;*/
-    /*text-align: left;*/
-    /*padding: 5; /*ul*/
 }
 
-.spaceForHeader {
+.navigation {
     border: 3px solid #ff9100;
     box-sizing: border-box;
     background-color: rgb(255, 166, 0);
@@ -67,23 +61,16 @@ html {/*has the background image fixed even when scrolling of a kangaroo rat*/
     position: fixed;
     top: 0;
     left: 0;
-    /*width: 100%;*/
-    /*z-index: 999;*/
-}
 
-.spaceForHeader {
     display: inline-block;
-    /*font-family: 'Oxygen', sans-serif;*/
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
     margin: 0;
     padding: 5px;
     text-transform: uppercase;
-    /*text-align: left;*/
-    /*padding: 5; /*ul*/
 }
-/*#hyperlinks, */
+/*#hyperlinks, /*Used, but might use later*/
 a {
     border: 2px solid #ffbb00;
     background-color: rgb(253, 143, 0);
@@ -95,7 +82,7 @@ a {
 body { /*All content inside the 'body' element should be centered aligned*/
     text-align: center;
 
-    /*Scroll box model*/
+    /*Scroll box model. Will use later*/
     /*width: 400px; 
     height: 1000px; /*Added to test overflow
     overflow: scroll; /*overflow added*/
@@ -147,6 +134,7 @@ ol {
     list-style-position: inside;
 }
 
+/*Table*/
 table {
     height: 40%;
     left: 10%;
@@ -157,7 +145,7 @@ table {
 }
 
 thead th {
-    background: rgb(253, 143, 0);/*rgb(255, 166, 0);*/
+    background: rgb(253, 143, 0);
     color: saddlebrown;
     font-family: 'Playfair Display';
     font-size: 16px;
@@ -167,7 +155,7 @@ thead th {
 }
   
 tr {
-    background: #ffbb00;/*rgb(255, 179, 39);*/
+    background: #ffbb00;
     border-bottom: 1px solid #FFF;
     margin-bottom: 5px;
 }
