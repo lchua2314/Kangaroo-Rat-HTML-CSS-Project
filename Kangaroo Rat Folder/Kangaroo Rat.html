@@ -31,6 +31,8 @@
     <a href="#habitat">Habitat</a>
     <a href="#table">Table</a>
     <a href="#media">Media</a>
+    <a href="#sign-up">Sign up?</a>
+    <a href="#feedback">Feedback</a>
   </div>
 </ul>
 
@@ -153,13 +155,102 @@
   </div>
 
   <footer>
-    <!--Does not do anything.-->
-      <hr>
-      <!--Add your code below-->
-      <form action="/practice.html" method="POST">
-        <h1>Example form element</h1>
-        <p>This is extra info</p>
-      </form>
+    <form action="Submission.html" method="POST">
+      <div id="sign-up">
+        <h2>Sign up for our newsletters?</h2>
+        <p>Then please input your info here!</p>
+        <section class="user-info">
+          <label for="user-email">Email:</label>
+          <input type="text" id="user-email" name="user-email">
+          <br>
+
+          <label for="username">Username:</label>
+  		    <input type="text" name="username" id="username">
+          <br>
+
+          <label for="user-pw">Password:</label>
+          <input type="password" id="user-pw" name="user-pw">
+          <br>
+        </section>
+        <hr>
+      </div>
+
+      <div id="feedback">
+        <h2>How would you rate this page?</h2>
+        <section class="rating">
+          <label for="rating">Rating: </label>
+          <input type="number" id="rating" name="rating" step="1">
+          <br>
+        </section>
+        <hr>
+        
+        <section class="info-quality">
+          <label for="info">How did you find the information on the article?</label>
+          <br>
+          <span>Poor</span>
+            <input id="info" name="info" type="range" min="0" max="5" step="0.5">
+          <span>Excellent</span>
+        </section>
+        <hr>
+
+        <section class="preferred-info">
+          <span>What type of info did you like in the article?</span>
+          <br>
+          <input id="intro" name="preferred-info" type="checkbox" value="intro">
+          <label for="intro">Introduction</label>
+          <input id="habitat" name="preferred-info" type="checkbox" value="habitat">
+          <label for="habitat">Habitat</label>
+          <input id="table" type="checkbox" name="preferred-info" value="table">
+          <label for="table">Table</label>
+          <input id="media" type="checkbox" name="preferred-info" value="media">
+          <label for="media">Media</label>
+        </section>
+        <hr>
+
+        <section class="recommendation">
+          <span>Would you share this webpage with someone?</span>
+          <br>
+          <input id="yes" type="radio" name="share" value="yes">
+          <label for="yes">Yes</label>
+          <input id="no" type="radio" name="share" value="no">
+          <label for="no">No</label>
+        </section>
+        <hr>
+
+        <section class="rat-type">
+          <label for="rat">What type of kangaroo rat is the most interesting to you from just reading this article?</label>
+          <select id="rat" name="rat">
+            <option value="california">California</option>
+            <option value="texas">Texas</option>
+            <option value="giant">Giant</option>
+            <option value="panamint">Panamint</option>
+          </select>
+        </section>
+        <hr>
+
+        <section class="animal-type">
+          <label for="animal">What animal would you like to see next?</label>
+          <input list="animals" id="animal" name="animal">
+          <datalist id="animals">
+            <option value="bear">Bear</option>
+            <option value="wolf">Wolf</option>
+            <option value="snake">Snake</option>
+          </datalist>
+        </section>
+        <hr>
+
+        <section class="extra-feedback">
+          <label for="extra">Is there any extra feedback you would like to add?</label>
+          <br>
+					<textarea id="extra" name="extra" rows="3" cols="40">Input your feedback here.</textarea>
+        </section>
+
+        <section class="submission">
+          <input type="submit">
+        </section>
+
+      </div>
+    </form>
   </footer>
 </body>
 

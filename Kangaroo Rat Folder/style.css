@@ -6,6 +6,10 @@ html {/*has the background image fixed even when scrolling of a kangaroo rat*/
     background-size: cover;
 }
 
+hr { 
+    opacity: 0%;
+}
+  
 .bgLayer { /*A slight orange hue layers ontop of the background image of the kangraoo rat*/
     background-color: rgba(255, 165, 0, 0.85);
     position: absolute;
