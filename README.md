@@ -10,4 +10,4 @@ I used a Pinterest image for the background: https://www.pinterest.com/pin/30321
 
 Embedded a video from National Geographic: https://video.nationalgeographic.com/video/news/0000015d-8031-d1cb-a7fd-c4fdc7240000
 
-How to run: Make sure files are in the same folder. Run the HTML file.
+How to run: Make sure files are in the same folder. Run the 'Kangaroo Rat.html' file.
