@@ -121,7 +121,6 @@ h4 {
 
 p {
     color: Brown;
-    
 }
 
 /*ul and ol's bullet points and numbering was left aligned, but now are centered*/
@@ -174,6 +173,30 @@ th, td {
 #media {
     color: saddlebrown;
 }
+
+span {
+    color: brown;
+}
+
+input {
+    background-color: rgb(253, 143, 0);
+    color: darkblue;
+}
+
+textarea {
+    background-color: rgb(253, 143, 0);
+    color: darkblue;
+}
+
+select {
+    background-color: rgb(253, 143, 0);
+    color: darkblue;
+}
+
+label {
+    color: brown;
+}
+
 
 footer {
     color: saddlebrown;
