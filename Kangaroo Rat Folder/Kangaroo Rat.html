@@ -149,21 +149,24 @@
       <h2>Media</h2>
       <figure>
         <a href="https://en.wikipedia.org/wiki/Kangaroo_rat" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Kangaroo-rat.jpg" 
-        alt="Image of a Kangaroo Rat. Found on wikipedia." width="500" height="285"/></a>
+          <object data="https://upload.wikimedia.org/wikipedia/commons/5/50/Kangaroo-rat.jpg">
+            <img src="Kangaroo-rat-embed.jpg" 
+            alt="Image of a Kangaroo Rat. Found on wikipedia." width="500" height="285"/> <!--Backup image if website URL changes-->
+          </object>
+        </a>
         <figcaption>
           <h3>Image of Kangaroo Rat</h3>
           <p>Found on Wikipedia (click the image to visit page)</p>
-          <!--<a href="https://en.wikipedia.org/wiki/Kangaroo_rat" target="_blank">https://en.wikipedia.org/wiki/Kangaroo_rat</a>
-          <br>-->
         </figcaption>
       </figure>
       <br>
 
       <figure>
-        <video poster= "https://pmdvod.nationalgeographic.com/NG_Video/52/827/xlgpost_1501094783787.jpg" src="https://pmdvod.nationalgeographic.com/NG_Video/52/827/1010445379980_1501094517412_1010450499574_mp4_video_1024x576_1632000_primary_audio_eng_3.mp4"
-        width="500" height="285" controls loop autoplay> <!--'autoplay' does not seem to work-->
-          National Geographic's Kangaroo Rat Video not supported. 
+        <video poster="national-geo-image.jpg" width  ="500" height="285" controls loop autoplay> <!--'autoplay' does not seem to work-->
+          <source src="https://pmdvod.nationalgeographic.com/NG_Video/52/827/1010445379980_1501094517412_1010450499574_mp4_video_1024x576_1632000_primary_audio_eng_3.mp4" type="video/mp4">
+          <source src="national-geo-kangaroo-rat.mp4" type="video/mp4"> <!--Backup video if source URL changes-->
+          Video of Kangaroo Rat is not supported. Please click the link see video: 
+          <a href="national-geo-kangaroo-rat.mp4">Should already be downloaded</a>
         </video>
         <!--The below is found in the code of the National Geographics video. I used the poster and URL to embed the video.-->
         <!--<video class="vjs-tech" playsinline="playsinline" id="videoPlayer_html5_api" tabindex="-1" preload="auto" poster="https://pmdvod.nationalgeographic.com/NG_Video/52/827/xlgpost_1501094783787.jpg" src="https://pmdvod.nationalgeographic.com/NG_Video/52/827/1010445379980_1501094517412_1010450499574_mp4_video_1024x576_1632000_primary_audio_eng_3.mp4">
@@ -174,13 +177,13 @@
           <br>
           <a href="https://video.nationalgeographic.com/video/news/0000015d-8031-d1cb-a7fd-c4fdc7240000" target="_blank">https://video.nationalgeographic.com/video/news/0000015d-8031-d1cb-a7fd-c4fdc7240000</a>
         </figcaption>
-
       </figure>
       <br>
 
       <!-- Need to find audio file of kangaroo rat. Here's the audio of a dog embedded -->
       <audio controls>
         <source src="https://codecademy-content.s3.amazonaws.com/courses/Semantic+HTML/dogBarking.mp3" type="audio/mp3">
+        <source src="dogBarking.mp3" type="audio/mp3"> <!--Audio backup-->
       </audio>
       <h3>Audio of a Kangaroo Rat (NOT)</h3>
       <p>Found on Codecademy:</p>
@@ -190,7 +193,10 @@
 
       <figure>
         <a href="https://media0.giphy.com/media/52CBs5lfpUGI0/source.gif" target="_blank">
-          <embed src="https://media0.giphy.com/media/52CBs5lfpUGI0/source.gif">
+          <object data="https://media0.giphy.com/media/52CBs5lfpUGI0/source.gif">
+            <img src="kangaroo-rat-gif.gif"
+            alt="GIF did not load" width="500" height="285"/>
+          </object>
         </a>
         <figcaption>
           <h3>GIF of Kangaroo Rat</h3>
