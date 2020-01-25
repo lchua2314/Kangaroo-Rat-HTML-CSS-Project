@@ -94,7 +94,6 @@ hr {
     height: 500px;
     margin: 10px;
     padding: 10px;
-    /*z-index: 1;*/
 }
 
 /*#hyperlinks, /*Used, but might use later*/
@@ -104,6 +103,7 @@ a {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    transition: 0.5s;
 }
 
 a:hover {
@@ -113,18 +113,9 @@ a:hover {
 
 body { /*All content inside the 'body' element should be centered aligned*/
     text-align: center;
-
-    /*Scroll box model. Will use later*/
-    /*width: 400px; 
-    height: 1000px; /*Added to test overflow
-    overflow: scroll; /*overflow added*/
 }
 
 h1 { /*Heading 1 is "Kangaroo Rat" titling the page*/
-    /**color: #FFF;
-    font-size: 2em;
-    font-family: Georgia; 
-    padding-top: 100px;**/
     color: saddlebrown;
     font-size: 50px;
     margin: 10px;
