@@ -74,6 +74,8 @@ hr {
     margin: 0;
     padding: 5px;
     text-transform: uppercase;
+    text-align: left;
+    opacity: 0.7;
 }
 
 #container p{
@@ -88,12 +90,8 @@ hr {
     display: inline-block;
 }
 
-.left-box {
-    text-align: left;
-    width: 100px;
-    height: 500px;
+h4 {
     margin: 10px;
-    padding: 10px;
 }
 
 /*#hyperlinks, /*Used, but might use later*/
@@ -103,6 +101,7 @@ a {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    letter-spacing: 5px;
     transition: 0.5s;
 }
 
@@ -122,6 +121,7 @@ h1 { /*Heading 1 is "Kangaroo Rat" titling the page*/
     padding: 10px;
     border: 2px solid #ffbb00;
     text-transform: uppercase;
+    letter-spacing: 20px;
     z-index: 0;
 }
 
@@ -218,6 +218,7 @@ input {
 input:hover {
     border-color: rgb(253, 143, 0);
     background-color: #ffbb00;
+    transition: 0.5s;
 }
 
 textarea {
@@ -229,6 +230,7 @@ textarea {
 textarea:hover {
     border-color: rgb(253, 143, 0);
     background-color: #ffbb00;
+    transition: 0.5s;
 }
 
 select {
@@ -240,6 +242,7 @@ select {
 select:hover {
     border-color: rgb(253, 143, 0);
     background-color: #ffbb00;
+    transition: 0.5s;
 }
 
 label {
