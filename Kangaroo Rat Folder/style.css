@@ -105,6 +105,12 @@ a {
     transition: 0.5s;
 }
 
+.imageLink {
+    padding-top: 272px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
 a:hover {
     border-color: rgb(253, 143, 0);
     background-color: #ffbb00;
