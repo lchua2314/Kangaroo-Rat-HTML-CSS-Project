@@ -136,6 +136,7 @@ h1 { /*Heading 1 is "Kangaroo Rat" titling the page*/
 /*All subheaders are 'saddlebrown' while all content below is 'brown'*/
 
 h2 {
+    padding-top: 70px;
     color: saddlebrown;
     text-transform: uppercase;
 }
