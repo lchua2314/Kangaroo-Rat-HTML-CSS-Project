@@ -80,6 +80,12 @@ hr {
     z-index: 1;
 }
 
+.navigation p {
+    font-weight: bold;
+    text-decoration: overline underline;
+    letter-spacing: 5px;
+}
+
 #container p{
     border: 3px solid rgb(255, 0, 0);
     border-radius: 100%;/*5px;*/
@@ -104,15 +110,20 @@ a {
 }
 
 a:active {
-    color: yellow;
-    text-decoration: overline;
+    color: red;
+}
+
+a:link {
+    color: darkblue;
 }
 
 a:visited {
+    color: darkslateblue;
     text-decoration: underline;
 }
 
 a:hover {
+    color: rgb(0, 0, 82);
     text-decoration: underline;
 }
 
