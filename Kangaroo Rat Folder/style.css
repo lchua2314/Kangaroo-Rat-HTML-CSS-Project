@@ -246,7 +246,7 @@ span {
     color: brown;
 }
 
-input {
+input, button {
     border-color: #ffbb00;
     background-color: rgb(253, 143, 0);
     color: darkblue;
