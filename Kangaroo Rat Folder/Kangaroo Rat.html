@@ -214,16 +214,16 @@
           <p>Then please input your info here!</p>
           <section class="user-info">
             <label for="user-email">Email:</label>
-            <input type="text" id="user-email" name="user-email" required>
+            <input type="text" id="user-email" name="user-email" required minlength="10">
             <br>
 
             <label for="username">Username:</label>
-            <input type="text" name="username" id="username" required minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+"> 
+            <input type="text" name="username" id="username" required minlength="8" maxlength="15" pattern="[a-zA-Z0-9]+"> 
             <!--The pattern means the user can only enter a-z, A-Z, and 0-9. User cannot enter symbols such as '%'-->
             <br>
 
             <label for="user-pw">Password:</label>
-            <input type="password" id="user-pw" name="user-pw" required minlength="3" maxlength="15">
+            <input type="password" id="user-pw" name="user-pw" required minlength="8" maxlength="15">
             <br>
           </section>
           <hr>
