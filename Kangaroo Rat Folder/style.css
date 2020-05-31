@@ -24,7 +24,7 @@
 html {/*has the background image fixed even when scrolling of a kangaroo rat*/
     font-size: 16px;
     font-family: "Playfair Display";
-    background:url(https://i.pinimg.com/originals/02/8e/58/028e5878580b59f251800e32dcce0d64.jpg), url(Background\ Image.jpg);
+    background:url(https://i.pinimg.com/originals/02/8e/58/028e5878580b59f251800e32dcce0d64.jpg), url(Background\ Image.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
